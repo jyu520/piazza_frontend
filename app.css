@@ -1,0 +1,172 @@
+body,html{
+    min-width: 450px;
+}
+form{
+    margin-bottom: 0;
+}
+.form-group{
+    margin-bottom: 0;
+}
+.picture-div{
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 2vh;
+    margin-bottom: 4vh;
+    height: auto;
+    max-width: 40%;
+    max-height: 90%;
+    
+    padding-top:10px;
+
+    background-color: rgba(184, 184, 184, 0.336);
+    color: #6F7074;
+}
+
+.container label{
+    font-size: 1.5vh;
+}
+
+input[type="email"], input[type="text"] {
+    margin-top: .8vh;  
+}
+
+#company-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #6F7074;
+    margin-left: 2vh;
+}
+
+.btn {
+    background-color: #24AC6D;
+    color: white;
+    margin-top: .8vh;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.grey{
+    background-color: #F2F3F4;
+}
+.header-bar{
+    background-color: #2E424E;
+}
+
+#header-logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.container-fluid {
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#hero-image{
+    width: 100%;
+}
+
+#company-logos{
+    border-top: #EFF2F6 5px solid;
+    border-bottom: #EFF2F6 5px solid;
+}
+
+#register-field{
+    background-color: grey;
+    background: rgba(0,0,0,.5);
+    
+}
+#submit-button{
+    background-color: #29AB6D;
+}
+
+.big-icon{
+    min-width: 80px;
+    min-height: 80px;
+}
+
+.extended-descriptions{
+    width: 100%;
+    padding: 3vw;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.paragraph h2{
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
+
+.paragraph p{
+    font-size: 1.5vw;
+
+}
+
+.feature p{
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.feature-pane{
+    max-height: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #2E424E;
+    color: white;
+    text-align: center;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.feature-pane img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.feature-pane h3{
+    font-size: 1.75vw;
+    margin-bottom: 0;
+}
+
+.feature-pane p{
+    font-size: 1vw;
+    text-align: left;
+}
+
+hr{ 
+    color: white;
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         8%;
+    width:          1px;       
+    margin-right: 5px;
+}
